@@ -1,0 +1,17 @@
+.container_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.container_top > span {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  color: #9f9f9f;
+}
+.container_top > span > span {
+  color: #3019b2;
+}

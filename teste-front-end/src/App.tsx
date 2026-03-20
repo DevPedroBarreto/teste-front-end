@@ -1,12 +1,14 @@
+import Header from "./components/head/Header";
 import "./styles/main.scss";
 
 function App() {
   return (
     <>
-      <section id="center"></section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+      <main>
+        <Header />
+        <section></section>
+        <section></section>
+      </main>
     </>
   );
 }

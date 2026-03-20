@@ -1,0 +1,18 @@
+header > .container {
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.container_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.menu_option {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
